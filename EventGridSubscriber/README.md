@@ -28,13 +28,16 @@ In case of invoking the artifact, use the following command.
 
 ## How to containerize the application
 
-- Ordinally, use the following command to containerize the application.
+### Ordinally
+
+Ordinally, use the following command to containerize the application.
 ```bash
 docker build -t {Container Image Name}:{Tag} .
 ```
 
 ### In case of containerizing custom runtime image created with jlink
 
+The command is different from previous one.
 ```bash
 docker build -t {Container Image Name}:{Tag} . -f Dockerfile.jlink
 ```
