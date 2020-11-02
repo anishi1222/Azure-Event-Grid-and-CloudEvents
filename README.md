@@ -3,6 +3,12 @@ How to interact with Azure Event Grids using CloudEvents APIs instead of Azure E
 
 This content is used in the following articles. For more details, please check the following articles.
 
+## Modules
+- CloudEvents2EventGrid
+  - This is a client application which posts cloudevents to Azure Event Grid using CloudEvents APIs.
+- EventGridSubscriber
+  - This is a JAX-RS application which consumes cloudevents through Azure Event Grid using CloudEvents APIs. This application subscribes Azure Event Griid topic and Event Grid sends events with webhook.
+
 ## Japanese 
 - Logico Inside
   - [https://logico-jp.io/2020/09/06/use-cloudevents-schema-in-azure-event-grid/](https://logico-jp.io/2020/09/06/use-cloudevents-schema-in-azure-event-grid/)
