@@ -1,6 +1,7 @@
 # EventGridSubscriber
 
 This is a sample JAX-RS application which subscribes Azure Event Grid topic and handle events using CloudEvents APIs.
+As this is a Helidon based application, operation follows Helidon's way.
 
 ## How to Build
 
