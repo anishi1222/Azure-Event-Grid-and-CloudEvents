@@ -12,6 +12,12 @@ Use the following command to build the application.
 maven clean package
 ```
 
+In case of invoking the artifact, use typical command.
+
+```bash
+java -jar [Source Code Home]/target/EventGridSubscriber.jar
+```
+
 ### application built with jlink
 
 Build command is different from previous one.
